@@ -25,4 +25,9 @@ KeyError: 0
 
 ```
 
+Surprisingly things work with 
+```
+fiberassign --overwrite --mtl mtl.fits --sky sky.fits --footprint ./good_tiles.fits --outdir ./
+```
 
+The only difference is that the `TILEID` in `good_tiles.fits` talke values different from `0` or `1`.
